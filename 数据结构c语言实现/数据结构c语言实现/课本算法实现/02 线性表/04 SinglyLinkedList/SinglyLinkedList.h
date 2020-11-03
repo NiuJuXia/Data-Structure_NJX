@@ -74,10 +74,16 @@ Status ListInsert_L(LinkList L, int i, LElemType_L e);
 Status ListDelete_L(LinkList L, int i, LElemType_L *e);
 /*━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃(11)算法2.10：删除单链表L第i个位置的值，并用e接收。 ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━*/ 
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━*/
 
 Status ListTraverse_L(LinkList L, void(Visit)(LElemType_L));
 /*━━━━━━━━━━━━━━┓
 ┃(12)用Visit函数访问单链表L。┃
-┗━━━━━━━━━━━━━━*/  
+┗━━━━━━━━━━━━━━*/
+
+Status CreateList_HL(FILE *fp, LinkList *L, int n);
+/*━━━━━━━━━━━━━━━━━━━━━━┓
+┃(13)算法2.11：头插法建立单链表L(逆序输入)。 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━*/
+
 #endif /* SinglyLinkedList_h */

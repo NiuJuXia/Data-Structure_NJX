@@ -13,7 +13,7 @@
 
 #include "SinglyLinkedList.h"
 
-Status InitList_L(LinkList *L){  //L是二级指针，在此函数的作用是改变外界的一级指针的值
+Status InitList_L(LinkList *L){  //外面绕来绕去其实对于此函数而言就是像最基础的一样传入一个结构体变量(不是指向变量的指针),然后以指针形式接受，这样就可以修改变量的值
     
     (*L) = (LinkList)malloc(sizeof(LNode));
     
@@ -204,5 +204,58 @@ Status NextElem_L(LinkList L, LElemType_L cur_e, LElemType_L *next_e)
 
     return ERROR;
 }
+
 #endif
+
+Status CreateList_HL(FILE *fp, LinkList *L, int n){
+    
+    int i, tmp;
+    LinkList p;
+    
+    *L = (LinkList)malloc(sizeof(LNode));
+    (*L)->next = NULL;
+    
+    for (i=0; i<n; i++) {
+        if(fscanf(fp, "%d", &tmp)==1){
+            p = (LinkList)malloc(sizeof(LNode));
+            p->data = tmp;
+            p->next = (*L)->next;
+            (*L)->next = p;
+        }else{
+            return ERROR;
+        }
+    }
+    return OK;
+}
+
+Status CreateList_TL(FILE *fp, LinkList *L, int n)
+{
+    int i;
+    LinkList p, q;
+    LElemType_L tmp;
+            
+    *L = (LinkList)malloc(sizeof(LNode));
+    if(!(*L))
+        exit(OVERFLOW);
+    (*L)->next = NULL;
+        
+    for(i=1,q=*L; i<=n; ++i)
+    {
+        if(fscanf(fp, "%d", &tmp)==1)
+        {
+            p = (LinkList)malloc(sizeof(LNode));
+            if(!p)
+                exit(OVERFLOW);
+            p->data = tmp;                        //录入数据
+            q->next = p;
+            q = q->next;
+        }
+        else
+            return ERROR;
+    }
+    
+    q->next = NULL;
+
+    return OK;
+}
 #endif
