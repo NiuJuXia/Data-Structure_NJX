@@ -13,7 +13,7 @@
 
 #include "SinglyLinkedList.h"
 
-Status InitList_L(LinkList *L){  //外面绕来绕去其实对于此函数而言就是像最基础的一样传入一个结构体变量(不是指向变量的指针),然后以指针形式接受，这样就可以修改变量的值
+Status InitList_L(LinkList *L){  //外面绕来绕去其实对于此函数而言就是像最基础的一样传入一个结构体变量指针(不是指向变量的指针),然后以指针形式接受，这样就可以修改变量(指针)的值
     
     (*L) = (LinkList)malloc(sizeof(LNode));
     
