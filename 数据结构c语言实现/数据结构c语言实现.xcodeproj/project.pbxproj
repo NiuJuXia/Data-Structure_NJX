@@ -7,7 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A52C6F2545584D00A94B3A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A52C6E2545584D00A94B3A /* main.c */; };
+		036D9448254A4ECC0011B08D /* Union.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D9447254A4ECC0011B08D /* Union.c */; };
+		036D944D254A51D80011B08D /* MergeSqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D944C254A51D80011B08D /* MergeSqList.c */; };
+		036D945A254A8F370011B08D /* Union-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D9459254A8F370011B08D /* Union-main.c */; };
+		036D945D254B9F770011B08D /* MergeSqList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D945C254B9F770011B08D /* MergeSqList-main.c */; };
+		036D9462254D292B0011B08D /* SinglyLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D9461254D292B0011B08D /* SinglyLinkedList.c */; };
+		036D9466254D294B0011B08D /* SinglyLinkedList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 036D9465254D294B0011B08D /* SinglyLinkedList-main.c */; };
+		0382526825456D0C001D935F /* Status.c in Sources */ = {isa = PBXBuildFile; fileRef = 0382526725456D0C001D935F /* Status.c */; };
+		0382526C25456E09001D935F /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0382526B25456E09001D935F /* SequenceList.c */; };
+		0382527025479DBF001D935F /* SequenceList-mian.c in Sources */ = {isa = PBXBuildFile; fileRef = 0382526F25479DBF001D935F /* SequenceList-mian.c */; };
+		0382BBDD25675127006E39AB /* MergeEList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0382BBDC25675127006E39AB /* MergeEList.c */; };
+		0382BBDF25675139006E39AB /* MergeEList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0382BBDE25675139006E39AB /* MergeEList-main.c */; };
+		03DF640A255F906200403696 /* DualCycleLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF6409255F906200403696 /* DualCycleLinkedList.c */; };
+		03DF640C255F907400403696 /* DualCycleLinkedList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF640B255F907400403696 /* DualCycleLinkedList-main.c */; };
+		03DF6410256217FC00403696 /* ExtenLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF640F256217FB00403696 /* ExtenLinkedList.c */; };
+		03DF64122562181000403696 /* ExtenLinkedList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF64112562181000403696 /* ExtenLinkedList-main.c */; };
+		03DF8AA92550F22800D30033 /* MergeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AA82550F22800D30033 /* MergeList.c */; };
+		03DF8AAB2550F23C00D30033 /* MergeList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AAA2550F23C00D30033 /* MergeList-main.c */; };
+		03DF8AAF2553CD1700D30033 /* StaticLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AAE2553CD1700D30033 /* StaticLinkedList.c */; };
+		03DF8AB12553CD3700D30033 /* StaticLinkedList-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AB02553CD3700D30033 /* StaticLinkedList-main.c */; };
+		03DF8AB6255CC1F600D30033 /* cycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AB5255CC1F600D30033 /* cycle.c */; };
+		03DF8ABA255E1A0100D30033 /* Diffrence.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8AB9255E1A0100D30033 /* Diffrence.c */; };
+		03DF8ABC255E1A2600D30033 /* Deffrence-main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DF8ABB255E1A2600D30033 /* Deffrence-main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +44,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		036D9446254A4ECC0011B08D /* Union.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Union.h; sourceTree = "<group>"; };
+		036D9447254A4ECC0011B08D /* Union.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Union.c; sourceTree = "<group>"; };
+		036D944B254A51D80011B08D /* MergeSqList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSqList.h; sourceTree = "<group>"; };
+		036D944C254A51D80011B08D /* MergeSqList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSqList.c; sourceTree = "<group>"; };
+		036D9459254A8F370011B08D /* Union-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Union-main.c"; sourceTree = "<group>"; };
+		036D945C254B9F770011B08D /* MergeSqList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MergeSqList-main.c"; sourceTree = "<group>"; };
+		036D9460254D292B0011B08D /* SinglyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedList.h; sourceTree = "<group>"; };
+		036D9461254D292B0011B08D /* SinglyLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SinglyLinkedList.c; sourceTree = "<group>"; };
+		036D9465254D294B0011B08D /* SinglyLinkedList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SinglyLinkedList-main.c"; sourceTree = "<group>"; };
+		0382526625456D0C001D935F /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		0382526725456D0C001D935F /* Status.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Status.c; sourceTree = "<group>"; };
+		0382526A25456E09001D935F /* SequenceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequenceList.h; sourceTree = "<group>"; };
+		0382526B25456E09001D935F /* SequenceList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SequenceList.c; sourceTree = "<group>"; };
+		0382526F25479DBF001D935F /* SequenceList-mian.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SequenceList-mian.c"; sourceTree = "<group>"; };
+		0382BBDB25675127006E39AB /* MergeEList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeEList.h; sourceTree = "<group>"; };
+		0382BBDC25675127006E39AB /* MergeEList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeEList.c; sourceTree = "<group>"; };
+		0382BBDE25675139006E39AB /* MergeEList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MergeEList-main.c"; sourceTree = "<group>"; };
 		03A52C6B2545584D00A94B3A /* 数据结构c语言实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构c语言实现"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A52C6E2545584D00A94B3A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		03DF6408255F906200403696 /* DualCycleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DualCycleLinkedList.h; sourceTree = "<group>"; };
+		03DF6409255F906200403696 /* DualCycleLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DualCycleLinkedList.c; sourceTree = "<group>"; };
+		03DF640B255F907400403696 /* DualCycleLinkedList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "DualCycleLinkedList-main.c"; sourceTree = "<group>"; };
+		03DF640E256217FB00403696 /* ExtenLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtenLinkedList.h; sourceTree = "<group>"; };
+		03DF640F256217FB00403696 /* ExtenLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExtenLinkedList.c; sourceTree = "<group>"; };
+		03DF64112562181000403696 /* ExtenLinkedList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ExtenLinkedList-main.c"; sourceTree = "<group>"; };
+		03DF8AA72550F22800D30033 /* MergeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeList.h; sourceTree = "<group>"; };
+		03DF8AA82550F22800D30033 /* MergeList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeList.c; sourceTree = "<group>"; };
+		03DF8AAA2550F23C00D30033 /* MergeList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MergeList-main.c"; sourceTree = "<group>"; };
+		03DF8AAD2553CD1700D30033 /* StaticLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLinkedList.h; sourceTree = "<group>"; };
+		03DF8AAE2553CD1700D30033 /* StaticLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticLinkedList.c; sourceTree = "<group>"; };
+		03DF8AB02553CD3700D30033 /* StaticLinkedList-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "StaticLinkedList-main.c"; sourceTree = "<group>"; };
+		03DF8AB5255CC1F600D30033 /* cycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cycle.c; sourceTree = "<group>"; };
+		03DF8AB8255E1A0100D30033 /* Diffrence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diffrence.h; sourceTree = "<group>"; };
+		03DF8AB9255E1A0100D30033 /* Diffrence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Diffrence.c; sourceTree = "<group>"; };
+		03DF8ABB255E1A2600D30033 /* Deffrence-main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Deffrence-main.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +91,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036D9445254A4E9F0011B08D /* 02 Umion */ = {
+			isa = PBXGroup;
+			children = (
+				036D9446254A4ECC0011B08D /* Union.h */,
+				036D9447254A4ECC0011B08D /* Union.c */,
+				036D9459254A8F370011B08D /* Union-main.c */,
+			);
+			path = "02 Umion";
+			sourceTree = "<group>";
+		};
+		036D944A254A51AA0011B08D /* 03 MergeSqList */ = {
+			isa = PBXGroup;
+			children = (
+				036D944B254A51D80011B08D /* MergeSqList.h */,
+				036D944C254A51D80011B08D /* MergeSqList.c */,
+				036D945C254B9F770011B08D /* MergeSqList-main.c */,
+			);
+			path = "03 MergeSqList";
+			sourceTree = "<group>";
+		};
+		036D945F254D21170011B08D /* 04 SinglyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				036D9460254D292B0011B08D /* SinglyLinkedList.h */,
+				036D9461254D292B0011B08D /* SinglyLinkedList.c */,
+				036D9465254D294B0011B08D /* SinglyLinkedList-main.c */,
+			);
+			path = "04 SinglyLinkedList";
+			sourceTree = "<group>";
+		};
+		0382526325455C0B001D935F /* 课本算法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				03825265254569DA001D935F /* 01 绪论 */,
+				0382526425455C2B001D935F /* 02 线性表 */,
+			);
+			path = "课本算法实现";
+			sourceTree = "<group>";
+		};
+		0382526425455C2B001D935F /* 02 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				0382BBDA2567510F006E39AB /* 10 MergeEList */,
+				03DF640D256217E400403696 /* 09 ExtenLinkedList */,
+				03DF6407255F904E00403696 /* 08 DualCycleLinkedList */,
+				03DF8AB7255E19AB00D30033 /* 07 Difference */,
+				03DF8AB2255CC18600D30033 /* 循环链表解决约瑟夫环 */,
+				03DF8AAC2553CC0700D30033 /* 06 StaticLinkedList */,
+				03DF8AA62550F1DA00D30033 /* 05 MergeList */,
+				036D945F254D21170011B08D /* 04 SinglyLinkedList */,
+				036D944A254A51AA0011B08D /* 03 MergeSqList */,
+				036D9445254A4E9F0011B08D /* 02 Umion */,
+				0382527225479E56001D935F /* 01 SequenceList */,
+			);
+			path = "02 线性表";
+			sourceTree = "<group>";
+		};
+		03825265254569DA001D935F /* 01 绪论 */ = {
+			isa = PBXGroup;
+			children = (
+				0382526625456D0C001D935F /* Status.h */,
+				0382526725456D0C001D935F /* Status.c */,
+			);
+			path = "01 绪论";
+			sourceTree = "<group>";
+		};
+		0382527225479E56001D935F /* 01 SequenceList */ = {
+			isa = PBXGroup;
+			children = (
+				0382526F25479DBF001D935F /* SequenceList-mian.c */,
+				0382526B25456E09001D935F /* SequenceList.c */,
+				0382526A25456E09001D935F /* SequenceList.h */,
+			);
+			path = "01 SequenceList";
+			sourceTree = "<group>";
+		};
+		0382BBDA2567510F006E39AB /* 10 MergeEList */ = {
+			isa = PBXGroup;
+			children = (
+				0382BBDB25675127006E39AB /* MergeEList.h */,
+				0382BBDC25675127006E39AB /* MergeEList.c */,
+				0382BBDE25675139006E39AB /* MergeEList-main.c */,
+			);
+			path = "10 MergeEList";
+			sourceTree = "<group>";
+		};
 		03A52C622545584D00A94B3A = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +196,67 @@
 		03A52C6D2545584D00A94B3A /* 数据结构c语言实现 */ = {
 			isa = PBXGroup;
 			children = (
-				03A52C6E2545584D00A94B3A /* main.c */,
+				0382526325455C0B001D935F /* 课本算法实现 */,
 			);
 			path = "数据结构c语言实现";
+			sourceTree = "<group>";
+		};
+		03DF6407255F904E00403696 /* 08 DualCycleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				03DF6408255F906200403696 /* DualCycleLinkedList.h */,
+				03DF6409255F906200403696 /* DualCycleLinkedList.c */,
+				03DF640B255F907400403696 /* DualCycleLinkedList-main.c */,
+			);
+			path = "08 DualCycleLinkedList";
+			sourceTree = "<group>";
+		};
+		03DF640D256217E400403696 /* 09 ExtenLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				03DF640E256217FB00403696 /* ExtenLinkedList.h */,
+				03DF640F256217FB00403696 /* ExtenLinkedList.c */,
+				03DF64112562181000403696 /* ExtenLinkedList-main.c */,
+			);
+			path = "09 ExtenLinkedList";
+			sourceTree = "<group>";
+		};
+		03DF8AA62550F1DA00D30033 /* 05 MergeList */ = {
+			isa = PBXGroup;
+			children = (
+				03DF8AA72550F22800D30033 /* MergeList.h */,
+				03DF8AA82550F22800D30033 /* MergeList.c */,
+				03DF8AAA2550F23C00D30033 /* MergeList-main.c */,
+			);
+			path = "05 MergeList";
+			sourceTree = "<group>";
+		};
+		03DF8AAC2553CC0700D30033 /* 06 StaticLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				03DF8AAD2553CD1700D30033 /* StaticLinkedList.h */,
+				03DF8AAE2553CD1700D30033 /* StaticLinkedList.c */,
+				03DF8AB02553CD3700D30033 /* StaticLinkedList-main.c */,
+			);
+			path = "06 StaticLinkedList";
+			sourceTree = "<group>";
+		};
+		03DF8AB2255CC18600D30033 /* 循环链表解决约瑟夫环 */ = {
+			isa = PBXGroup;
+			children = (
+				03DF8AB5255CC1F600D30033 /* cycle.c */,
+			);
+			path = "循环链表解决约瑟夫环";
+			sourceTree = "<group>";
+		};
+		03DF8AB7255E19AB00D30033 /* 07 Difference */ = {
+			isa = PBXGroup;
+			children = (
+				03DF8AB8255E1A0100D30033 /* Diffrence.h */,
+				03DF8AB9255E1A0100D30033 /* Diffrence.c */,
+				03DF8ABB255E1A2600D30033 /* Deffrence-main.c */,
+			);
+			path = "07 Difference";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +315,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A52C6F2545584D00A94B3A /* main.c in Sources */,
+				03DF8AB12553CD3700D30033 /* StaticLinkedList-main.c in Sources */,
+				036D944D254A51D80011B08D /* MergeSqList.c in Sources */,
+				03DF8ABA255E1A0100D30033 /* Diffrence.c in Sources */,
+				0382BBDF25675139006E39AB /* MergeEList-main.c in Sources */,
+				0382526C25456E09001D935F /* SequenceList.c in Sources */,
+				03DF8AA92550F22800D30033 /* MergeList.c in Sources */,
+				03DF8ABC255E1A2600D30033 /* Deffrence-main.c in Sources */,
+				03DF640C255F907400403696 /* DualCycleLinkedList-main.c in Sources */,
+				036D9448254A4ECC0011B08D /* Union.c in Sources */,
+				0382526825456D0C001D935F /* Status.c in Sources */,
+				03DF6410256217FC00403696 /* ExtenLinkedList.c in Sources */,
+				036D9462254D292B0011B08D /* SinglyLinkedList.c in Sources */,
+				03DF8AAF2553CD1700D30033 /* StaticLinkedList.c in Sources */,
+				036D945D254B9F770011B08D /* MergeSqList-main.c in Sources */,
+				0382BBDD25675127006E39AB /* MergeEList.c in Sources */,
+				036D945A254A8F370011B08D /* Union-main.c in Sources */,
+				03DF8AAB2550F23C00D30033 /* MergeList-main.c in Sources */,
+				03DF640A255F906200403696 /* DualCycleLinkedList.c in Sources */,
+				03DF64122562181000403696 /* ExtenLinkedList-main.c in Sources */,
+				036D9466254D294B0011B08D /* SinglyLinkedList-main.c in Sources */,
+				03DF8AB6255CC1F600D30033 /* cycle.c in Sources */,
+				0382527025479DBF001D935F /* SequenceList-mian.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

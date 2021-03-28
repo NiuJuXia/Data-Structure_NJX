@@ -7,6 +7,8 @@
 
 #include "StaticLinkedList.h"
 
+//这些的实现思路没有大话数据结构里的好
+
 void InitSpace_SL(component array){
     for (int i=0;  i < MAXSIZE ; i++) {
         array[i].cur = i+1;

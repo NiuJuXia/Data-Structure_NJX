@@ -15,7 +15,7 @@
 
 Status InitList_L(LinkList *L){  //外面绕来绕去其实对于此函数而言就是像最基础的一样传入一个结构体变量指针(不是指向变量的指针),然后以指针形式接受，这样就可以修改变量(指针)的值
     
-    (*L) = (LinkList)malloc(sizeof(LNode));
+    (*L) = (LinkList)malloc(sizeof(LNode));//指向头结点的头指针
     
     if(!(*L)) exit(OVERFLOW);;
     
@@ -115,7 +115,7 @@ Status ListDelete_L(LinkList L, int i, LElemType_L *e)
 Status GetElem_L(LinkList L, int i, LElemType_L *e)
 {
     int j;
-    LinkList p = L->next;
+    LinkList p = L->next;//指向头结点
     
     j = 1;
     

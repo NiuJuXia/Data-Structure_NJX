@@ -2,29 +2,29 @@
  *                                              *
  * 文件夹: ▲02 线性表\08 DualCycleLinkedList *
  *                                               *
- * 内  容: 双循环链表相关函数测试             *
+ * 内  容: 双向链表相关函数测试             *
  *                                            *
  **********************************************/
 
 #include <stdio.h>
 #include "DualCycleLinkedList.h"                         //**▲02 线性表**//
 
-void PrintElem(LElemType_DC e);                            //测试函数，打印整型
-Status CmpGreater(LElemType_DC e, LElemType_DC data);    //若data>e，返回TRUE，否则返回FALSE
+//void PrintElem(LElemType_DC e);                            //测试函数，打印整型
+//Status CmpGreater(LElemType_DC e, LElemType_DC data);    //若data>e，返回TRUE，否则返回FALSE
 
 //int main(){
-//    
+//
 //    DuLinkList L;
 //    LElemType_DC e;
 //    int i;
-//    
+//
 //    printf("▼1\n▲函数 InitList_DuL 测试...\n");        //1.函数InitList_DuL测试
 //    {
 //        printf("初始化双循环链表 L ...\n");
 //        NJXInitList_DuL(&L,5);
 //        printf("\n");
 //    }
-//    
+//
 //    printf("▼13\n▲函数 ListTraverse_DuL 测试...\n");    //13.函数ListTraverse_DuL测试
 //        {
 //            printf(" L 中的元素为：L = ");
@@ -103,7 +103,7 @@ Status CmpGreater(LElemType_DC e, LElemType_DC data);    //若data>e，返回TRU
 //        ListEmpty_DuL(L) ? printf(" L 为空！！\n") : printf(" L 不为空！\n");
 //        printf("\n");
 //    }
-//    
+//
 //    printf("▼2\n▲函数 DestroyList_DuL 测试...\n");    //2.函数DestroyList_DuL测试
 //    {
 //        printf("销毁 L 前：");
@@ -113,16 +113,16 @@ Status CmpGreater(LElemType_DC e, LElemType_DC data);    //若data>e，返回TRU
 //        L ? printf(" L 存在！\n") : printf(" L 不存在！！\n");
 //        printf("\n");
 //    }
-//    
+//
 //    return 0;
 //}
 
-void PrintElem(LElemType_DC e)
-{
-    printf("%d ", e);
-}
-
-Status CmpGreater(LElemType_DC e, LElemType_DC data)
-{
-    return data>e ? TRUE : FALSE;
-}
+//void PrintElem(LElemType_DC e)
+//{
+//    printf("%d ", e);
+//}
+//
+//Status CmpGreater(LElemType_DC e, LElemType_DC data)
+//{
+//    return data>e ? TRUE : FALSE;
+//}

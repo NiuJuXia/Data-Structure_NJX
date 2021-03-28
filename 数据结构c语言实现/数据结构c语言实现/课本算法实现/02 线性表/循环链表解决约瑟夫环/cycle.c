@@ -33,7 +33,7 @@ LNode* initLink(int n){
 
 void findAndKillK(LNode * head, int k, int m) {
     LNode *p = head, *tail = head;
-    while (tail->next != head->next) {  //处理k=1的特殊情况
+    while (tail->next != head->next) {  //处理k=1的特殊情况，tail进入有数据的链表范围
         tail = tail->next;
     }
     while (p->data != k) {

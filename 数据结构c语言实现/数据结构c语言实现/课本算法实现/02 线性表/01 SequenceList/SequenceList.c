@@ -4,6 +4,7 @@
 //
 //  Created by 宋宋梦醒 on 2020/10/25.
 //
+//线性表的顺序实现
 
 #ifndef SEQUENCELIST_C
 #define SEQUENCELIST_C
@@ -43,7 +44,7 @@ Status ListInsert_Sq(SqList *L, int i, LElemType_Sq e){
     
     LElemType_Sq *newbase;
     
-    if(i<1 || i>L->length+1) return ERROR; //i不符合
+    if(i<1 || i>L->length+1) return ERROR; //i不符合，新增元素位置不能超过当前显现表的长度(已拥有的元素长度)
     
     if(L->length >= L->listsize){//若存储空间已满，需开辟更大的空间
         newbase = (LElemType_Sq*)realloc(L->elem,(L->listsize+LISTINCREMENT)*sizeof(LElemType_Sq));
@@ -120,7 +121,7 @@ int LocateElem_Sq(SqList L, LElemType_Sq e, Status(Compare)(LElemType_Sq, LElemT
 {
     int i = 1;                            //i的初值为第一个元素的位序
     
-    while(i<=L.length && !Compare(e, L.elem[i-1]))
+    while(i<=L.length && !Compare(e, L.elem[i-1]))//Compare接受两个参数，第一个为e，第二个为线性表的结构
         ++i;
 
     if(i<=L.length)

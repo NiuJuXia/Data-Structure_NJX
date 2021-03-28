@@ -166,3 +166,5 @@ void DestroyList_DuL(DuLinkList *L){
     free(*L);
     *L = NULL;
 }
+
+//如果是双向循环链表，那么初始化，增，删，求长等函数均要做出一定调整

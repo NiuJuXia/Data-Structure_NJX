@@ -29,6 +29,7 @@ typedef int LElemType_Sq;
 typedef struct
 {
   LElemType_Sq *elem;                    //存储空间基址（指向第一个结点的指针）
+                                         //不直接使用int是为了更改方便
   int length;                            //当前顺序表长度
   int listsize;                        //当前分配的存储容量
 }SqList;                                //顺序表0号单元正常使用
